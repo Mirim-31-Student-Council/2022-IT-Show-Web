@@ -2,7 +2,7 @@
     font-family: 'Noto Sans KR', sans-serif;
 }
 body {
-    background-color: #FFCF86;
+    background-color: #BFB2E1;
     margin: 0 auto;
 }
 div {
@@ -11,8 +11,8 @@ div {
 .title-top {
     width: 90%;
     height: 70px;
-    border-left: 3px solid #C50909;
-    border-right: 3px solid #C50909;
+    border-left: 3px solid #4C1B7D;
+    border-right: 3px solid #4C1B7D;
     margin: auto;
 }
 .title-bottom {
@@ -21,24 +21,24 @@ div {
 }
 .title-left {
     width: 10%;
-    border-top: 3px solid #C50909;
-    border-bottom: 3px solid #C50909;
+    border-top: 3px solid #4C1B7D;
+    border-bottom: 3px solid #4C1B7D;
 }
 .title-right {
     width: 10%;
-    border-top: 3px solid #C50909;
-    border-bottom: 3px solid #C50909;
+    border-top: 3px solid #4C1B7D;
+    border-bottom: 3px solid #4C1B7D;
 }
 .title-center {
     width: 80%;
     padding: 20px;
-    border-top: 3px solid #C50909;
-    border-bottom: 3px solid #C50909;
-    border-left: 3px solid #C50909;
-    border-right: 3px solid #C50909;
+    border-top: 3px solid #4C1B7D;
+    border-bottom: 3px solid #4C1B7D;
+    border-left: 3px solid #4C1B7D;
+    border-right: 3px solid #4C1B7D;
 }
 .title-text-1 {
-    color: #C50909;
+    color: #4C1B7D;
     font-size: 24px;
 }
 .title-text-1 span {
@@ -47,11 +47,11 @@ div {
 }
 .title-text-2 {
     font-size: 24px;
-    color: #C50909;
+    color: #4C1B7D;
 }
 .title-text-3 {
     font-size: 24px;
-    color: #C50909;
+    color: #4C1B7D;
 }
 .container-clock {
     display: flex;
@@ -141,7 +141,7 @@ div {
 .btn-top {
     width: 52px;
     height: 52px;
-    background-image: url('../image/red_arrow.svg');
+    background-image: url('../image/purple_arrow.svg');
     border: none;
     background-color: transparent;
     background-size: cover;
@@ -151,7 +151,7 @@ div {
 .btn-home {
     width: 52px;
     height: 52px;
-    background-image: url('../image/red_home.svg');
+    background-image: url('../image/purple_home.svg');
     border: none;
     background-color: transparent;
     background-color: transparent;
@@ -159,12 +159,11 @@ div {
     background-repeat: no-repeat;
     cursor: pointer;
 }
-
 footer {
-    border-top: 3px solid #C50909;
+    border-top: 3px solid #4C1B7D;
     padding: 50px;
     align-items: center;
-    color: #C50909;
+    color: #4C1B7D;
     margin-top: 200px;
     font-size: 15px;
     font-weight: bold;
