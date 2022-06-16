@@ -1,0 +1,180 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+body {
+    background-color: #FFCF86;
+    margin: 0 auto;
+}
+div {
+    border: none;
+}
+.title-top {
+    width: 90%;
+    height: 70px;
+    border-left: 3px solid #C50909;
+    border-right: 3px solid #C50909;
+    margin: auto;
+}
+.title-bottom {
+    width: 100%;
+    display: flex;
+}
+.title-left {
+    width: 10%;
+    border-top: 3px solid #C50909;
+    border-bottom: 3px solid #C50909;
+}
+.title-right {
+    width: 10%;
+    border-top: 3px solid #C50909;
+    border-bottom: 3px solid #C50909;
+}
+.title-center {
+    width: 80%;
+    padding: 20px;
+    border-top: 3px solid #C50909;
+    border-bottom: 3px solid #C50909;
+    border-left: 3px solid #C50909;
+    border-right: 3px solid #C50909;
+}
+.title-text-1 {
+    color: #C50909;
+    font-size: 24px;
+}
+.title-text-1 span {
+    font-size: 36px;
+    font-weight: bold;
+}
+.title-text-2 {
+    font-size: 24px;
+    color: #C50909;
+}
+.title-text-3 {
+    font-size: 24px;
+    color: #C50909;
+}
+.container-clock {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px;
+}
+.btn-red {
+    width: 52px;
+    height: 52px;
+    background-color: transparent;
+    border: none;
+    background-image: url('../image/red_clock.svg');
+}
+.btn-yellow {
+    width: 52px;
+    height: 52px;
+    background-color: transparent;
+    border: none;
+    background-image: url('../image/yellow_clock.svg');
+}
+.btn-green {
+    width: 52px;
+    height: 52px;
+    background-color: transparent;
+    border: none;
+    background-image: url('../image/green_clock.svg');
+}
+.btn-blue {
+    width: 52px;
+    height: 52px;
+    background-color: transparent;
+    border: none;
+    background-image: url('../image/blue_clock.svg');
+}
+.btn-purple {
+    width: 52px;
+    height: 52px;
+    background-color: transparent;
+    border: none;
+    background-image: url('../image/purple_clock.svg');
+}
+.btn-clock {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.container-panel {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.container-panel img {
+    box-shadow: 0px 0px 10px #808080;
+}
+.back-panel {
+    width: 30%;
+    display: block;
+}
+.container-front-panel {
+    width: 95%;
+}
+.front-panel {
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+}
+.container-front-panel p {
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.container-button {
+    right: 50px;
+    bottom: 50px;
+    position: fixed;
+    font-size: 20px;
+}
+.btn-top {
+    width: 52px;
+    height: 52px;
+    background-image: url('../image/red_arrow.svg');
+    border: none;
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.btn-home {
+    width: 52px;
+    height: 52px;
+    background-image: url('../image/red_home.svg');
+    border: none;
+    background-color: transparent;
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer {
+    border-top: 3px solid #C50909;
+    padding: 50px;
+    align-items: center;
+    color: #C50909;
+    margin-top: 200px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.container-footer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+footer img {
+    width: 100%;
+}
+.footer-image {
+    margin-right: 50px;
+}
+
+footer table td {
+    padding-right: 20px;
+}
+
