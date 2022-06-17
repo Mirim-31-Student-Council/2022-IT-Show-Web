@@ -36,6 +36,7 @@ div {
     border-bottom: 3px solid #4C1B7D;
     border-left: 3px solid #4C1B7D;
     border-right: 3px solid #4C1B7D;
+    display: flex;
 }
 .title-text-1 {
     color: #4C1B7D;
@@ -57,6 +58,22 @@ div {
     display: flex;
     justify-content: space-between;
     margin-right: 70px;
+    margin-top: 20px;
+}
+.container-title-list a {
+    text-decoration: none;
+    color: black;
+}
+.container-title-list span {
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 10px;
+    background-color: #D9CFF5;
+    border-radius: 50px;
+    display: inline;
+    font-size: 20px;
+    float: left;
 }
 .btn-red {
     width: 52px;
@@ -159,6 +176,7 @@ div {
     background-repeat: no-repeat;
     cursor: pointer;
 }
+
 footer {
     border-top: 3px solid #4C1B7D;
     padding: 50px;
