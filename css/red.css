@@ -36,6 +36,7 @@ div {
     border-bottom: 3px solid #C50909;
     border-left: 3px solid #C50909;
     border-right: 3px solid #C50909;
+    display: flex;
 }
 .title-text-1 {
     color: #C50909;
@@ -57,6 +58,22 @@ div {
     display: flex;
     justify-content: space-between;
     margin-right: 70px;
+    margin-top: 20px;
+}
+.container-title-list a {
+    text-decoration: none;
+    color: black;
+}
+.container-title-list span {
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 10px;
+    background-color: #FFE0B2;
+    border-radius: 50px;
+    display: inline;
+    font-size: 20px;
+    float: left;
 }
 .btn-red {
     width: 52px;
