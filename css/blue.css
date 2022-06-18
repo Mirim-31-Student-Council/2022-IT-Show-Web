@@ -1,6 +1,8 @@
-* {
-    font-family: 'Noto Sans KR', sans-serif;
-}
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+*{
+    font-family: 'NanumSquare', sans-serif !important;
+} 
 body {
     background-color: #B7C9E5;
     margin: 0 auto;
@@ -65,6 +67,7 @@ div {
     color: black;
 }
 .container-title-list span {
+
     padding: 15px;
     padding-left: 25px;
     padding-right: 25px;
@@ -121,6 +124,7 @@ div {
 }
 
 .container-panel {
+    font-family: 'NanumSquare', sans-serif !important;
     width: 50%;
     margin: auto;
     padding: 20px;

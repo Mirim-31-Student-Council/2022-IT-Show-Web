@@ -1,6 +1,8 @@
-* {
-    font-family: 'Noto Sans KR', sans-serif;
-}
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+*{
+    font-family: 'NanumSquare', sans-serif !important;
+} 
 body {
     background-color: #FFCF86;
     margin: 0 auto;
