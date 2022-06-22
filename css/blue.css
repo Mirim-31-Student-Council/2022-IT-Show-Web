@@ -137,6 +137,7 @@ div {
 }
 .back-panel {
     width: 30%;
+    height:100%;
     display: block;
 }
 .container-front-panel {
